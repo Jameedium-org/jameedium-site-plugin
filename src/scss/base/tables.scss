@@ -1,0 +1,29 @@
+.cpt-table,
+.ctax-table {
+	width: 100%;
+	border-spacing: 5px;
+	text-align: center;
+
+	&,
+	& th,
+	& td {
+		border: 1px solid #ccc;
+		border-collapse: collapse;
+		padding: 15px;
+	}
+
+	& th {
+		background-color: var(--light-clr);
+		font-weight: bold;	
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.details-table{
+	width: 100%;
+	padding: 10px 20px;
+	border: 2px solid var(--main-clr);
+}

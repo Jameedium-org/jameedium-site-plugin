@@ -1,0 +1,17 @@
+{
+    "name": "jameedium/jameedium-site-plugin",
+    "description": "plugin to make jameedium site better",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Jameedium Dev Team",
+            "email": "jameedium@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

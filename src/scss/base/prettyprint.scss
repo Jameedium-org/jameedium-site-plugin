@@ -1,0 +1,34 @@
+.prettyprint{
+    padding: 15px 20px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    min-width: 50ch;
+    overflow-x: scroll;
+}
+
+// Jameedium scheme based on the brand colors
+pre.prettyprint { background-color: var(--const-dark-clr) }
+
+pre .nocode { color: #000 }
+
+pre .str { color: var(--accent-clr-1-light) }
+
+pre .kwd { color: var(--accent-clr-2-light) }
+
+pre .com { color: var(--main-clr-light) }
+
+pre .typ { color: var(--accent-clr-3-light) }
+
+pre .lit { color: var(--accent-clr-3) }
+
+pre .pun { color: #fff }
+
+pre .pln { color: #fff }
+
+pre .tag { color: var(--accent-clr-2-light) }
+
+pre .atn { color: var(--accent-clr-1-hover) }
+
+pre .atv { color: var(--accent-clr-1-light) }
+
+pre .dec { color: var(--accent-clr-3-light) }
