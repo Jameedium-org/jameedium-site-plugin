@@ -33,7 +33,7 @@
 		"gulp-strip-debug": "^3.0.0",
 		"gulp-uglify": "^3.0.0",
 		"gulp-uglifycss": "^1.0.9",
-		"postcss": "^8.2.2",
+		"postcss": "^8.2.10",
 		"vinyl-buffer": "^1.0.0",
 		"vinyl-source-stream": "^2.0.0"
 	},
