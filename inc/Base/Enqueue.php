@@ -19,7 +19,7 @@ class Enqueue extends BaseController
     public function enqueueAdminScripts()
     {
         // enqueue all our scripts
-        wp_enqueue_style( 'mypluginstyle', $this->plugin_url . 'assets/css/ja-style.css' );
-        wp_enqueue_script( 'mypluginscript', $this->plugin_url . 'assets/js/ja-script.js' );
+        wp_enqueue_style( 'mypluginstyle', $this->plugin_url . 'dist/main.css' );
+        wp_enqueue_script( 'mypluginscript', $this->plugin_url . 'dist/main.js' );
     }
 }
