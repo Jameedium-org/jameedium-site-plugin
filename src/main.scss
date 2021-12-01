@@ -4,17 +4,17 @@
 */
 
 // import the code-pretify css
-@import '../../node_modules/code-prettify/styles/desert.css';
+@import '../node_modules/code-prettify/styles/desert.css';
 
 // import the packages
-@import 'base/tabs.scss';
-@import 'base/form.scss';
-@import 'base/tables.scss';
-@import 'base/buttons.scss';
-@import 'base/details.scss';
-@import 'base/checkbox.scss';
-@import 'base/scrollbar.scss';
-@import 'base/prettyprint.scss';
+@import 'scss/tabs.scss';
+@import 'scss/form.scss';
+@import 'scss/tables.scss';
+@import 'scss/buttons.scss';
+@import 'scss/details.scss';
+@import 'scss/checkbox.scss';
+@import 'scss/scrollbar.scss';
+@import 'scss/prettyprint.scss';
 
 /*simple reset*/
 :root{
