@@ -1,2 +1,6 @@
+1.2.0
+- migrate to webpack 5 as a scss and es6 compiler.
+- update the js and css file structure and naming to owner the webpack standards
+
 1.1.0
 - add comments enable feature for the CPT manager
