@@ -1,3 +1,5 @@
+import './main.scss';
+
 import 'code-prettify';
 
 window.addEventListener("load",function(){
