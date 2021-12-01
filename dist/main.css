@@ -1,0 +1,389 @@
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/code-prettify/styles/desert.css ***!
+  \************************************************************************************************/
+/* desert scheme ported from vim to google prettify */
+pre.prettyprint { display: block; background-color: #333 }
+pre .nocode { background-color: none; color: #000 }
+pre .str { color: #ffa0a0 } /* string  - pink */
+pre .kwd { color: #f0e68c; font-weight: bold }
+pre .com { color: #87ceeb } /* comment - skyblue */
+pre .typ { color: #98fb98 } /* type    - lightgreen */
+pre .lit { color: #cd5c5c } /* literal - darkred */
+pre .pun { color: #fff }    /* punctuation */
+pre .pln { color: #fff }    /* plaintext */
+pre .tag { color: #f0e68c; font-weight: bold } /* html/xml tag    - lightyellow */
+pre .atn { color: #bdb76b; font-weight: bold } /* attribute name  - khaki */
+pre .atv { color: #ffa0a0 } /* attribute value - pink */
+pre .dec { color: #98fb98 } /* decimal         - lightgreen */
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+@media print {
+  pre.prettyprint { background-color: none }
+  pre .str, code .str { color: #060 }
+  pre .kwd, code .kwd { color: #006; font-weight: bold }
+  pre .com, code .com { color: #600; font-style: italic }
+  pre .typ, code .typ { color: #404; font-weight: bold }
+  pre .lit, code .lit { color: #044 }
+  pre .pun, code .pun { color: #440 }
+  pre .pln, code .pln { color: #000 }
+  pre .tag, code .tag { color: #006; font-weight: bold }
+  pre .atn, code .atn { color: #404 }
+  pre .atv, code .atv { color: #060 }
+}
+
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
+  \**************************************************************************************************************************************************/
+/** |==================================|
+*   | @package JameediumSitePlugin     |
+*   |==================================|
+*/
+/* tabs style */
+.nav-tabs {
+  float: left;
+  width: 100%;
+  margin: 0;
+  background-color: #005eca;
+  background-color: var(--main-clr);
+  list-style-type: none;
+  border-bottom: 4px solid #ffc900;
+  border-bottom: 4px solid var(--accent-clr-1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 7px;
+}
+.nav-tabs > li {
+  float: left;
+  margin: 0;
+}
+.nav-tabs > li.active {
+  background-color: #004ba2;
+  background-color: var(--main-clr-hover);
+}
+.nav-tabs a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  color: var(--const-white-clr);
+  text-decoration: none;
+}
+.nav-tabs a:hover {
+  background-color: #004ba2;
+  background-color: var(--main-clr-hover);
+}
+
+.tab-content * {
+  box-sizing: border-box;
+}
+.tab-content .tab-pane {
+  float: left;
+  width: 100%;
+  display: none;
+}
+.tab-content .tab-pane.active {
+  display: block;
+  padding: 10px 20px 5px 20px;
+  background-color: #ffffff;
+  background-color: var(--white-clr);
+}
+.tab-content .tab-pane.active h2, .tab-content .tab-pane.active label {
+  color: #001833;
+  color: var(--dark-text-clr);
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.cpt-table,
+.ctax-table {
+  width: 100%;
+  border-spacing: 5px;
+  text-align: center;
+}
+.cpt-table, .cpt-table th, .cpt-table td,
+.ctax-table,
+.ctax-table th,
+.ctax-table td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 15px;
+}
+.cpt-table th,
+.ctax-table th {
+  background-color: #d3d3d3;
+  background-color: var(--light-clr);
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.details-table {
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid #005eca;
+  border: 2px solid var(--main-clr);
+}
+
+.btn {
+  border: 2px solid;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.8rem;
+  color: #ffffff;
+  color: var(--const-white-clr);
+  background-color: #005eca;
+  background-color: var(--main-clr);
+  transition: background-color 150ms, color 150ms;
+}
+.btn:hover {
+  color: #ffffff;
+  color: var(--const-white-clr);
+  background-color: #001833;
+  background-color: var(--const-dark-clr);
+}
+.btn.alert {
+  color: #001833;
+  color: var(--const-dark-clr);
+  background-color: #ffc900;
+  background-color: var(--accent-clr-1);
+}
+.btn.alert:hover {
+  background-color: #997900;
+  background-color: var(--accent-clr-1-hover);
+}
+.btn.danger {
+  color: #001833;
+  color: var(--const-dark-clr);
+  background-color: #ff526d;
+  background-color: var(--accent-clr-2);
+}
+.btn.danger:hover {
+  background-color: #993141;
+  background-color: var(--accent-clr-2-hover);
+}
+.btn.success {
+  color: #001833;
+  color: var(--const-dark-clr);
+  background-color: #2cce65;
+  background-color: var(--accent-clr-3);
+}
+.btn.success:hover {
+  background-color: #1a7c3d;
+  background-color: var(--accent-clr-3-hover);
+}
+
+details > summary {
+  width: 100%;
+  color: #ffffff;
+  color: var(--const-white-clr);
+  background-color: #005eca;
+  background-color: var(--main-clr);
+  border: none;
+  padding: 10px 20px;
+}
+
+div.ui-toggle {
+  margin: 0;
+  padding: 0;
+}
+div.ui-toggle input[type=checkbox] {
+  display: none;
+}
+div.ui-toggle input[type=checkbox]:checked + label {
+  border-color: #005eca;
+  border-color: var(--main-clr);
+  background: #005eca;
+  background: var(--main-clr);
+  box-shadow: inset 0 0 0 12.5px #005eca;
+  box-shadow: inset 0 0 0 12.5px var(--main-clr);
+}
+div.ui-toggle input[type=checkbox]:checked + label > div {
+  margin-left: 25px;
+}
+div.ui-toggle label {
+  transition: all 200ms ease;
+  display: inline-block;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #323232;
+  background: var(--dark2-text-clr);
+  box-shadow: inset 0 0 0 0 #005eca;
+  box-shadow: inset 0 0 0 0 var(--main-clr);
+  border: 2px solid #323232;
+  border: 2px solid var(--dark2-text-clr);
+  border-radius: 27px;
+  width: 50px;
+  height: 25px;
+}
+div.ui-toggle label div {
+  transition: all 200ms ease;
+  background: #ffc900;
+  background: var(--accent-clr-1);
+  width: 21px;
+  height: 21px;
+  border-radius: 12.5px;
+}
+div.ui-toggle label:hover, div.ui-toggle label > div:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dddddd;
+  background: var(--hover-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc900;
+  background: var(--accent-clr-1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #997900;
+  background: var(--accent-clr-1-hover);
+}
+
+.prettyprint {
+  padding: 15px 20px;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  min-width: 50ch;
+  overflow-x: scroll;
+}
+
+pre.prettyprint {
+  background-color: #001833;
+  background-color: var(--const-dark-clr);
+}
+
+pre .nocode {
+  color: #000;
+}
+
+pre .str {
+  color: #ffe999;
+  color: var(--accent-clr-1-light);
+}
+
+pre .kwd {
+  color: #ffbac5;
+  color: var(--accent-clr-2-light);
+}
+
+pre .com {
+  color: #669edf;
+  color: var(--main-clr-light);
+}
+
+pre .typ {
+  color: #abebc1;
+  color: var(--accent-clr-3-light);
+}
+
+pre .lit {
+  color: #2cce65;
+  color: var(--accent-clr-3);
+}
+
+pre .pun {
+  color: #fff;
+}
+
+pre .pln {
+  color: #fff;
+}
+
+pre .tag {
+  color: #ffbac5;
+  color: var(--accent-clr-2-light);
+}
+
+pre .atn {
+  color: #997900;
+  color: var(--accent-clr-1-hover);
+}
+
+pre .atv {
+  color: #ffe999;
+  color: var(--accent-clr-1-light);
+}
+
+pre .dec {
+  color: #abebc1;
+  color: var(--accent-clr-3-light);
+}
+
+/*simple reset*/
+:root {
+  --dark-clr: #001833;
+  --const-dark-clr: #001833;
+  --hover-dark: #002651;
+  --main-clr-light: #669edf;
+  --main-clr: #005eca;
+  --main-clr-hover: #004ba2;
+  --light-clr: #d3d3d3;
+  --white-clr: #ffffff;
+  --const-white-clr: #ffffff;
+  --hover-light: #dddddd;
+  --accent-clr-1-light: #ffe999;
+  --accent-clr-1: #ffc900;
+  --accent-clr-1-hover: #997900;
+  --accent-clr-2-light: #ffbac5;
+  --accent-clr-2: #ff526d;
+  --accent-clr-2-hover: #993141;
+  --accent-clr-3-light: #abebc1;
+  --accent-clr-3: #2cce65;
+  --accent-clr-3-hover: #1a7c3d;
+  --dark-text-clr: #001833;
+  --dark1-text-clr: #212121;
+  --dark2-text-clr: #323232;
+  --light-text-clr: #ffffff;
+}
+
+html {
+  position: relative;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+::-moz-selection {
+  color: #ffffff;
+  color: var(--light-text-clr);
+  background-color: #001833;
+  background-color: var(--dark-text-clr);
+}
+
+::selection {
+  color: #ffffff;
+  color: var(--light-text-clr);
+  background-color: #001833;
+  background-color: var(--dark-text-clr);
+}
+
+a, button {
+  text-decoration: none;
+}
+
+/* override the default wordpress style */
+.button-primary {
+  background-color: #005eca !important;
+  background-color: var(--main-clr) !important;
+}
+.button-primary :hover {
+  background-color: #004ba2 !important;
+  background-color: var(--main-clr-hover) !important;
+}
+
+/*# sourceMappingURL=main.css.map*/
