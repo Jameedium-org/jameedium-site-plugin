@@ -9,7 +9,7 @@
 Plugin Name: Jameedium Site Plugin
 Plugin URI: https://dev.jameedium.org/jameedium-site-plugin
 Description: A plugin that makes Jameedium site possible.
-Version: 1.1.0
+Version: 1.2.0
 Author: Jameedium Dev Team
 Author URI: https://dev.jameedium.org/
 License: GPLv2 or later
