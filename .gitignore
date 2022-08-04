@@ -1,6 +1,5 @@
 /assets
 /img
-/vendor
 /node_modules
 
 *.zip
